@@ -2,6 +2,7 @@ backend:
   name: github
   repo: efesolutions24-alt/electra-frame-website
   branch: main
+  base_url: https://api.github.com
 
 media_folder: ""
 public_folder: "/"
