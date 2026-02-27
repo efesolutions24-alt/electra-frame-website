@@ -5,99 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electra Frame Export Solutions</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #ffffff;
-            color: #333;
-        }
-        header {
-            background: #0b3d91;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header img {
-            max-width: 180px;
-            margin-bottom: 10px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 26px;
-        }
-        header p {
-            margin: 5px 0 0;
-            font-size: 15px;
-        }
-        nav {
-            background: #ffffff;
-            text-align: center;
-            padding: 10px;
-            border-bottom: 2px solid #0b3d91;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #0b3d91;
-            font-weight: bold;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        h2 {
-            color: #0b3d91;
-            margin-bottom: 20px;
-        }
-        .services ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        .contact-box {
-            background: #f2f6ff;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        footer {
-            background: #0b3d91;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #0b3d91;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            margin-top: 15px;
-        }
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-            background: #e6ecff;
-        }
-        .contact-box a {
-            color: #0b3d91;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .whatsapp-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #25D366;
-            color: white;
-            padding: 12px 18px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
+        body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; background-color: #ffffff; color: #333; }
+        header { background: #0b3d91; color: white; padding: 20px; text-align: center; }
+        header img { max-width: 180px; margin-bottom: 10px; }
+        nav { background: #ffffff; text-align: center; padding: 10px; border-bottom: 2px solid #0b3d91; }
+        nav a { margin: 0 15px; text-decoration: none; color: #0b3d91; font-weight: bold; }
+        section { padding: 40px 20px; max-width: 1100px; margin: auto; }
+        h2 { color: #0b3d91; margin-bottom: 20px; }
+        .services ul { list-style-type: square; padding-left: 20px; }
+        .contact-box { background: #f2f6ff; padding: 20px; border-radius: 8px; }
+        .contact-box a { color: #0b3d91; text-decoration: none; font-weight: bold; }
+        .hero { text-align: center; padding: 60px 20px; background: #e6ecff; }
+        .btn { display: inline-block; padding: 10px 20px; background: #0b3d91; color: white; text-decoration: none; border-radius: 4px; margin-top: 15px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .gallery img { width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        footer { background: #0b3d91; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+        .whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 12px 18px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
     </style>
 </head>
 <body>
@@ -111,6 +34,7 @@
 <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#products">Products</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -122,12 +46,7 @@
 
 <section id="about">
     <h2>About Us</h2>
-    <p>
-        Electra Frame Export Solutions is a trusted supplier of premium electrical and HVAC systems for industrial and commercial applications. We specialize in delivering high-quality products and complete domestic and export solutions tailored to client requirements.
-    </p>
-    <p>
-        Our focus is on reliability, efficiency, and long-term performance, ensuring our clients receive dependable energy and power systems across industries.
-    </p>
+    <p>Electra Frame Export Solutions is a trusted supplier of premium electrical and HVAC systems for industrial and commercial applications, delivering reliable domestic and export solutions.</p>
 </section>
 
 <section id="services" class="services">
@@ -142,21 +61,28 @@
     </ul>
 </section>
 
+<section id="products">
+    <h2>Our Product Gallery</h2>
+    <div class="gallery">
+        <!-- Upload these 4 images to GitHub and name them exactly like below -->
+        <img src="dg1.jpg" alt="DG Set 1">
+        <img src="dg2.jpg" alt="DG Set 2">
+        <img src="hvac1.jpg" alt="HVAC System 1">
+        <img src="hvac2.jpg" alt="HVAC System 2">
+    </div>
+</section>
+
 <section id="contact">
     <h2>Contact Us</h2>
     <div class="contact-box">
         <p><strong>Email:</strong> 
-        <a href="mailto:madhumita@electraframeexports.com">
-        madhumita@electraframeexports.com
-        </a></p>
-        <p><strong>Phone:</strong> <a href="tel:+917004467275">+91 7004467275</a></p>
+        <a href="mailto:madhumita@electraframeexports.com">madhumita@electraframeexports.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+919002715943">+91 9002715943</a></p>
         <p><strong>Address:</strong> Kanthalberia, Bethuadahari, Nadia, West Bengal, India - 741126</p>
     </div>
 </section>
 
-<a class="whatsapp-btn" href="https://wa.me/917004467275" target="_blank">
-    Chat on WhatsApp
-</a>
+<a class="whatsapp-btn" href="https://wa.me/919002715943" target="_blank">Chat on WhatsApp</a>
 
 <footer>
     <p>© 2026 Electra Frame Export Solutions. All Rights Reserved.</p>
